@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.16)  18 FEB 2026 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.16)  18 FEB 2026 10:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -772,12 +772,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 57.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 57.
-<Figures/uv_logo.png, id=35, 1206.5075pt x 563.10374pt>
+<Figures/uv_logo.png, id=43, 1206.5075pt x 563.10374pt>
 File: Figures/uv_logo.png Graphic file (type png)
 <use Figures/uv_logo.png>
 Package pdftex.def Info: Figures/uv_logo.png  used on input line 60.
 (pdftex.def)             Requested size: 73.14212pt x 34.14322pt.
-<Figures/uv_acreditacion.png, id=37, 1765.59625pt x 531.9875pt>
+<Figures/uv_acreditacion.png, id=45, 1765.59625pt x 531.9875pt>
 File: Figures/uv_acreditacion.png Graphic file (type png)
 <use Figures/uv_acreditacion.png>
 Package pdftex.def Info: Figures/uv_acreditacion.png  used on input line 62.
@@ -790,14 +790,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-t1.enc} <./Figures/uv_logo.png> <./Figures/uv_acreditac
-ion.png>]) (./Content/cronograma.tex) (./Content/defensa.tex)
+ion.png>]) (./Content/cronograma.tex) (./Content/lo_que_falta.tex)
+(./Content/defensa.tex
 File: Figures/uv_logo.png Graphic file (type png)
 <use Figures/uv_logo.png>
-Package pdftex.def Info: Figures/uv_logo.png  used on input line 82.
+Package pdftex.def Info: Figures/uv_logo.png  used on input line 3.
 (pdftex.def)             Requested size: 73.14212pt x 34.14322pt.
 File: Figures/uv_acreditacion.png Graphic file (type png)
 <use Figures/uv_acreditacion.png>
-Package pdftex.def Info: Figures/uv_acreditacion.png  used on input line 82.
+Package pdftex.def Info: Figures/uv_acreditacion.png  used on input line 3.
 (pdftex.def)             Requested size: 113.31297pt x 34.14322pt.
 
 
@@ -808,7 +809,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-26.22325pt}.
 
-[2] 
+[2])
+File: Figures/uv_logo.png Graphic file (type png)
+<use Figures/uv_logo.png>
+Package pdftex.def Info: Figures/uv_logo.png  used on input line 85.
+(pdftex.def)             Requested size: 73.14212pt x 34.14322pt.
+File: Figures/uv_acreditacion.png Graphic file (type png)
+<use Figures/uv_acreditacion.png>
+Package pdftex.def Info: Figures/uv_acreditacion.png  used on input line 85.
+(pdftex.def)             Requested size: 113.31297pt x 34.14322pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 38.22325pt, for example:
+(fancyhdr)                \setlength{\headheight}{38.22325pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-26.22325pt}.
+
+[3] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./main.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -819,32 +838,33 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 446AA61120D99220F94754E1D879F8C5;1128.
+(rerunfilecheck)             Checksum: EF57B097D8E0BA8FB794A84B082D557E;1472.
  ) 
 Here is how much of TeX's memory you used:
- 23996 strings out of 474222
- 461373 string characters out of 5748733
- 1944975 words of memory out of 5000000
- 45843 multiletter control sequences out of 15000+600000
+ 24007 strings out of 474222
+ 461578 string characters out of 5748733
+ 1946975 words of memory out of 5000000
+ 45848 multiletter control sequences out of 15000+600000
  570803 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,101p,420b,848s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/ty
-pe1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/
-sfbx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/s
-hare/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/typ
-e1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/s
-frm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/sh
-are/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type
-1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sf
-ti1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on main.pdf (2 pages, 349089 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf/fonts/type1/pub
+lic/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx109
+5.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/te
+xmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/publ
+ic/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000
+.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb></usr/share/tex
+mf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/publi
+c/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.
+pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on main.pdf (3 pages, 365084 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 79 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
+ 14 named destinations out of 1000 (max. 500000)
+ 95 words of extra memory for PDF output out of 10000 (max. 10000000)
 
