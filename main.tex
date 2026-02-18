@@ -23,6 +23,7 @@
 \usepackage{booktabs}
 \usepackage{tabularx}
 \usepackage{pgfgantt}
+\usepackage{tikz}
 
 % --- Enlaces ---
 \usepackage[colorlinks=true, linkcolor=UVBlue, citecolor=UVBlue, urlcolor=blue]{hyperref}
@@ -54,7 +55,14 @@
 \thispagestyle{fancy} % Forzar encabezado en la primera página
 \maketitle
 
-\vspace{1cm}
+\begin{tikzpicture}[remember picture, overlay]
+    \node[anchor=north west, xshift=3cm, yshift=-2.5cm] at (current page.north west) 
+        {\includegraphics[height=1.2cm]{Figures/uv_logo.png}};
+    \node[anchor=north east, xshift=-3cm, yshift=-2.5cm] at (current page.north east) 
+        {\includegraphics[height=1.2cm]{Figures/uv_acreditacion.png}};
+\end{tikzpicture}
+
+\vspace{0.5cm}
 
 \section{Resumen Ejecutivo}
 Este documento presenta el estado actual del proyecto de tesis enfocado en la validación de secuencias UTE en resonancia magnética de bajo campo (0.55 T) para la evaluación de la fragilidad ósea, comparando resultados con ultrasonido de transmisión axial bidireccional (BDAT).
