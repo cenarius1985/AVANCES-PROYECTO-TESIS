@@ -1,0 +1,79 @@
+\documentclass[11pt,a4paper]{article}
+
+% --- Paquetes Básicos ---
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{top=2.5cm, bottom=2.5cm, left=3cm, right=3cm}
+
+% --- Estética y Colores ---
+\usepackage{xcolor}
+\definecolor{UVBlue}{RGB}{0, 51, 102} % Azul corporativo UV sugerido
+\usepackage{titlesec}
+\titleformat{\section}{\color{UVBlue}\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\color{UVBlue}\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+% --- Gráficos ---
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+
+% --- Tablas y Cronogramas ---
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{pgfgantt}
+
+% --- Enlaces ---
+\usepackage[colorlinks=true, linkcolor=UVBlue, citecolor=UVBlue, urlcolor=blue]{hyperref}
+
+% --- Configuración de Encabezado y Pie de Página ---
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[height=1cm]{Figures/uv_logo.png}}
+\fancyhead[R]{\footnotesize Avance de Proyecto de Tesis \\ Fernando Ramírez Sarmiento}
+\fancyfoot[C]{\thepage\ de \pageref{LastPage}}
+\fancyfoot[L]{\footnotesize Doctorado en Ingeniería Informática}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% --- Datos del Documento ---
+\title{
+    \vspace{-1cm}
+    \includegraphics[width=4cm]{Figures/uv_logo.png} \\
+    \vspace{1cm}
+    \textcolor{UVBlue}{Informe de Avances: Proyecto de Tesis Doctoral} \\
+    \large{Análisis de Hueso Cortical mediante MRI 0.55T y Ultrasonido BDAT}
+}
+\author{
+    \textbf{Fernando Ramírez Sarmiento} \\
+    \small{Candidato a Doctor en Ingeniería Informática} \\
+    \small{Universidad de Valparaíso}
+}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    \includegraphics[width=5cm]{Figures/uv_acreditacion.png}
+\end{center}
+
+\vspace{1cm}
+
+\section{Resumen Ejecutivo}
+Este documento presenta el estado actual del proyecto de tesis enfocado en la validación de secuencias UTE en resonancia magnética de bajo campo (0.55 T) para la evaluación de la fragilidad ósea, comparando resultados con ultrasonido de transmisión axial bidireccional (BDAT).
+
+\section{Estado de Avance}
+\input{Content/avances.tex}
+
+\section{Problemas y Desafíos}
+\input{Content/problemas.tex}
+
+\section{Planificación y Cronograma}
+\input{Content/cronograma.tex}
+
+\section{Propuesta de Defensa y Finalización}
+\input{Content/defensa.tex}
+
+\end{document}
