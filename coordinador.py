@@ -103,7 +103,13 @@ def compile_full():
         # Lógica de apertura de archivos (solo si es Windows local)
         if os.name == 'nt':
             try:
-                os.startfile("main.pdf")
+                # Intenta abrir con Chrome para evitar bloqueos de Adobe
+                chrome_path = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"
+                if os.path.exists(chrome_path):
+                     subprocess.Popen([chrome_path, os.path.join(WORK_DIR, "main.pdf")])
+                else:
+                     # Fallback si no encuentra Chrome en ruta estándar
+                     os.startfile("main.pdf")
             except:
                 pass
 
