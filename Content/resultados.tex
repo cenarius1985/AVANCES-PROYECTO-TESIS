@@ -1,0 +1,23 @@
+\section{Resultados Preliminares}
+
+El análisis de la relajación transversal $T_2^*$ mediante el modelo bi-exponencial permitió la identificación y separación de las dos fracciones de agua características del hueso cortical: la componente rápida ($T_{2,s}^*$), asociada al agua ligada al colágeno, y la componente larga ($T_{2,l}^*$), correspondiente al agua de los poros óseos (ver Figura~\ref{fig:result_images}).
+
+Un desafío crítico abordado fue la contaminación por señal proveniente de la médula ósea adyacente, cuyo espectro de relajación se solapa parcialmente con la cola del decaimiento de la señal ósea. Para mitigar este efecto de volumen parcial, se incorporó la estimación de la componente de relajación medular en el modelo de ajuste, utilizándola como límite superior para restringir el rango de decaimiento atribuible exclusivamente al hueso. Esto permitió aislar con mayor precisión la señal cortical, minimizando la sobreestimación de la fracción de agua de poro ($PW_{frac}$) causada por la infiltración de lípidos medulares en la región de interés (ROI).
+
+Como se observa en los gráficos de la Figura~\ref{fig:result_images}, la señal ajustada (línea continua) sigue fielmente los datos experimentales (puntos), validando la capacidad del protocolo a 0.55 T para resolver componentes de vida media ultracorta ($< 1$ ms) en presencia de especies de relajación más lenta.
+
+\begin{figure}[htbp]
+    \centering
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figures/resultados/t2_star_rician_correlaciones_cortical_20260218_113959_sujeto1_40_anios.png}
+        \caption{Sujeto 1 (40 años)}
+    \end{minipage}\hfill
+    \begin{minipage}{0.48\textwidth}
+        \centering
+        \includegraphics[width=\linewidth]{Figures/resultados/t2_star_rician_correlaciones_cortical_20260218_114735_sujeto2_42_anios.png}
+        \caption{Sujeto 2 (42 años)}
+    \end{minipage}
+    \caption{Curvas de decaimiento $T_2^*$ en hueso cortical mostrando la separación de componentes rápida (agua ligada) y larga (agua de poro). Se evidencia la contribución de la señal medular en los tiempos de eco tardíos, la cual es modelada para evitar sesgos en la cuantificación ósea.}
+    \label{fig:result_images}
+\end{figure}
